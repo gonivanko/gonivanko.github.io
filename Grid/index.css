@@ -1,0 +1,94 @@
+body
+{
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+}
+
+header, footer
+{
+    background-color: lightblue;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr minmax(100px, auto);
+    grid-template-rows: minmax(70px, auto);
+    justify-content: space-between;
+    align-content: center;
+    
+}
+ .div-x, .div-y
+{
+    min-width: 100px;
+    /* min-height: 50px; */
+    margin-right: 20px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    
+}
+.main-div
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+.div-4
+{
+    grid-column: 2 / 3;
+    background-color: salmon;
+    
+}
+.left-main-div
+{
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+.left-upper-div
+{
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.div-2
+{
+    grid-column: 1 / 2;
+    background-color: salmon;
+}
+.main-mid-div
+{
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+.div-3
+{
+    grid-row: 1 / 2;
+    background-color: lightgreen;
+    display: grid;
+    justify-items: center;
+}
+.div-5
+{
+    grid-row: 2 / 3;
+}
+.div-6
+{
+    grid-row: 2 / 3;
+    background-color: lightgreen;
+}
+
+.div-2, .div-3, .div-4, .div-5, .div-6, .div-x, .div-y
+{
+    display: grid;
+    align-content: center;
+    /* justify-content: center; */
+    padding: 10px;
+}
+
+nav
+{
+    display: grid;
+    align-items: center;
+}

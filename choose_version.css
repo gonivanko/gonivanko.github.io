@@ -1,0 +1,37 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+div
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.flexbox-div
+{
+    background-color: lightblue;
+}
+
+.grid-div
+{
+    background-color: lightgreen;
+}
+
+.table-div
+{
+    background-color: lightblue;
+}
+
+h1
+{
+    display: flex;
+    justify-content: center;
+}
