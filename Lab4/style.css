@@ -14,7 +14,6 @@ body
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     text-decoration: none;
-    /* font-size: 1rem; */
 }
 body
 {
@@ -60,7 +59,6 @@ header
     /* width: 100%; */
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(100px, auto) 1fr minmax(200px, auto);
     place-items: center;
     justify-content: space-between;
 }
@@ -107,8 +105,6 @@ header
 .vr-glasses-woman-image
 {
     width: 500px;
-    /* grid-row: 5 / 6; */
-    /* grid-column: 1 / 2; */
     z-index: 0;
 }
 
@@ -125,21 +121,16 @@ footer p
 {
     width: 50%;
     padding: 1rem;
-    /* padding: 0 1rem; */
 }
 
 @media only screen and (max-width: 1000px)
 {
     .techno-div
     {
-        /* display: grid; */
         grid-template-columns: 0.7fr;
         justify-content: center;
         grid-template-rows: repeat(3, minmax(300px, auto));
         row-gap: 30px;
-        margin: 20px;
-        /* grid-row: 3 / 5; */
-        /* grid-column: 1 / 2; */
         z-index: 1;
     }
     .nav-links
@@ -149,5 +140,9 @@ footer p
     .menu-icon
     {
         display: flex;
+    }
+    .vr-glasses-woman-image
+    {
+        width: 300px;
     }
 }
