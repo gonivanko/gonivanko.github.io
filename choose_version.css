@@ -15,17 +15,17 @@ div
     margin: 10px;
 }
 
-.flexbox-div
+.div-1
 {
     background-color: lightblue;
 }
 
-.grid-div
+.div-2
 {
     background-color: lightgreen;
 }
 
-.table-div
+.div-3
 {
     background-color: lightblue;
 }
