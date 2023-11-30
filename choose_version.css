@@ -15,20 +15,16 @@ div
     margin: 10px;
 }
 
-.div-1
+.div-1, .div-3
 {
     background-color: lightblue;
 }
 
-.div-2
+.div-2, .div-4
 {
     background-color: lightgreen;
 }
 
-.div-3
-{
-    background-color: lightblue;
-}
 
 h1
 {
